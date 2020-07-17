@@ -6,9 +6,8 @@
 
   <groupId>com.github.cuzfrog</groupId>
   <artifactId>unchecked</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>unchecked</name>
-  <!-- FIXME change it to the project's website -->
   <url>https://github.com/cuzfrog/unchecked</url>
 
   <properties>
