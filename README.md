@@ -1,3 +1,6 @@
+![badge](https://action-badges.now.sh/cuzfrog/unchecked)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.cuzfrog/unchecked/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.cuzfrog/unchecked)
+
 # Unchecked
 
 Functionally uncheck exceptions at compile time.
