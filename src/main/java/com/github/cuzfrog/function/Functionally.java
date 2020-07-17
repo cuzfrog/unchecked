@@ -76,6 +76,20 @@ public final class Functionally {
         };
     }
 
+    public interface ThrowingPredicate<T, E extends Exception> {
+        boolean test(T t) throws E;
+    }
+
+    public static <T, E extends Exception> Predicate<T> uncheckedP(final ThrowingPredicate<T, E> throwingPredicate) {
+        return t -> {
+            try {
+                return throwingPredicate.test(t);
+            } catch (Exception e) {
+                return reThrow(e);
+            }
+        };
+    }
+
     @SuppressWarnings("unchecked")
     private static <R, E extends Exception> R reThrow(Exception e) throws E {
         throw (E) e;
