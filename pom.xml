@@ -6,7 +6,7 @@
 
   <groupId>com.github.cuzfrog</groupId>
   <artifactId>unchecked</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <name>unchecked</name>
   <url>https://github.com/cuzfrog/unchecked</url>
   <description>Functionally uncheck exceptions at compile time.</description>
